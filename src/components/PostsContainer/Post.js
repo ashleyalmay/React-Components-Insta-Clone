@@ -13,7 +13,7 @@ const Post = props => {
   return (
     <div className="post-border">
       <PostHeader
-        username={props.post.username}
+        username={props.username}
         thumbnailUrl={
           props.post.thumbnailUrl
         }
