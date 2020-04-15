@@ -9,11 +9,11 @@ import "./Posts.css";
 // pass props in this file to
 const Post = props => {
   // set up state for the likes
-
+console.log(props);
   return (
     <div className="post-border">
       <PostHeader
-        username={props.username}
+        username={props.post.username}
         thumbnailUrl={
           props.post.thumbnailUrl
         }
